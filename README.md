@@ -1,21 +1,21 @@
 # Open-source-software-coursework
 ## contribution draft
-#####student ID：
-######1190202113
-######1190201105
-######1190201107
-######1190202210
-######1190201113
-######1190202122
-#####1.	Title: 
+### student ID：
+ 1190202113
+ 1190201105
+ 1190201107
+ 1190202210
+ 1190201113
+ 1190202122
+### 1.	Title: 
   Merge entries should be able to merge keywords
-#####2.	Description: 
+### 2.	Description: 
   when merging entries,it should be possible to merge the keywords.so we seek to make the operation of merge implement it to improve logic aspect of Jabref. 
  
-#####3.	Scope:
+### 3.	Scope:
   As i know,its implement focus on the logic of the project which operate and control the entry representing basic element.of course,we reckon that the gui and model need reading and understanding. 
 
-#####4.	Idea : 
+### 4.	Idea : 
 1) Add "Use Both" button on the forth column and the ‘Use both’ button appears right of "Use Right" only for keyword. 
 
 2) About Keywords:The entry is indexed according to keywords, and the weight of keyword frequency statistics and entry length normalization is used as the keyword weight. When two entries are merged, if only one keyword is retained, the keyword frequency needs to be re counted for the merged entry and the entry length needs to be re normalized; When two keywords are merged at the same time, the weighted average of the weights of the two keywords in the newly merged entry is taken. The weight is the length of the original entry.
